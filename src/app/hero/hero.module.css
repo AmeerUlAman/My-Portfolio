@@ -1,0 +1,103 @@
+.centered{
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+height:auto;
+padding-top: 70px;
+padding-bottom: 20px;
+}
+
+.herobox{
+width: 65%;
+height: 100%;
+/* background-color:rgba(62, 62, 62, 23%); */
+background: linear-gradient(-45deg, rgba(62, 62, 62, 23%) 30%,rgba(48, 47, 47, 0.23) 70%);
+background-size: 100% 100%;
+
+padding: 25px;
+border-radius: 9px;
+display: flex;
+flex-direction: row;
+}
+
+.description{
+width: 70%;
+display: flex;
+flex-direction: column;
+text-wrap: wrap;
+color: white;
+}
+
+.description h1{
+    margin: 0px;
+    padding: 0px; 
+    font-size: 50px;
+    color: white;
+}
+.description p{
+width: 70%;
+font-size: 25px ;
+margin: 0px;
+margin-top: 10px;
+}
+
+
+.imagesec{
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.images{
+height: 245px;
+width: 245px;
+border-radius: 50%;
+background-color: rgb(66, 65, 65);
+margin: auto;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.imagem{
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: rgb(204, 218, 155);
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+-1px -1px 6px rgba(0, 0, 0, 0.53);   
+cursor: pointer;
+    }
+
+.hire{
+    
+    background-color: black;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 80px;
+    margin: auto;
+    margin-top:25px ;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+
+}
+.hire p{
+margin: 0px;
+padding: 0px;
+font-size: 19px; 
+
+}
+.hire:hover{
+    color: black;
+    background-color: white;
+}

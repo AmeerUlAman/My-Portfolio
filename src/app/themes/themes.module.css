@@ -1,0 +1,55 @@
+.whole{
+position:fixed;
+left: 0px;
+margin-top: 70px;
+width: auto;
+height: auto;
+border-top-right-radius:13px ;
+border-bottom-right-radius:13px ;
+background-color: rgba(62, 62, 62, 23%);
+padding: 15px;
+ 
+display: flex;
+flex-direction: column;
+}
+ 
+
+.theme{
+display: flex;
+flex-direction: row;
+margin: auto;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.theme:hover div {
+    box-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db; /* Glow effect */
+  }
+  
+  .im1,
+  .im2,
+  .im3 {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 9px;
+  }
+  
+  .im1 {
+    background-color: rgb(73, 101, 125);
+  }
+  
+  .im2 {
+    background-color: rgb(191, 189, 47);
+  }
+  
+  .im3 {
+    background-color: rgb(129, 36, 34);
+  }
+
+  
+
+.title{
+color: white;
+}
+

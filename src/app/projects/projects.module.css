@@ -1,0 +1,48 @@
+.whole {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .heading {
+    width: 80%;
+    height: 150px;
+    color: white;
+    background-color: rgba(62, 62, 62, 23%);
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Added for positioning stripes */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 102px;
+    font-weight: bold;
+    position: relative; /* Added for positioning stripes */ 
+  }
+  
+  .stripeLeft,
+  .stripeRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 30px;
+    background-color: white;
+  }
+  
+  .stripeLeft {
+    left: -100px; /* Adjusted for better positioning */
+    rotate: -45deg;
+  }
+  
+  .stripeRight {
+    right: -100px; /* Adjusted for better positioning */
+    rotate: -45deg;
+}
