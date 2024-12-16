@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useRef } from "react";
 import styles from "./hero.module.css";
 import { Lilita_One } from "next/font/google";
@@ -15,10 +15,10 @@ const iceland = Iceland({
 });
 
 const Hero = () => {
-  const tridentRef = useRef(null);
+  const tridentRef = useRef<SVGSVGElement | null>(null); // Explicitly typed
 
   useEffect(() => {
-    const handleMouseMove = (event:any) => {
+    const handleMouseMove = (event: MouseEvent) => {
       const trident = tridentRef.current;
 
       if (trident) {
@@ -50,13 +50,13 @@ const Hero = () => {
         <div className={styles.description}>
           <h1 className={lilitaOne.className}>Hey there!</h1>
           <h1 className={lilitaOne.className}>This is Ameer Ul Aman,</h1>
-          <p className={iceland.className} style={{marginTop:"15px"}}>
+          <p className={iceland.className} style={{ marginTop: "15px" }}>
             I am a Generalist Software Engineer with experience in different fields
             related to Software Engineering Principles. With my intriguing nature and
             knowledge across different tools and techniques, I am always eager to
             learn more.
           </p>
-          <p className={iceland.className} style={{marginTop:"15px"}}>
+          <p className={iceland.className} style={{ marginTop: "15px" }}>
             Looking forward to your journey and experience across my portfolio!
           </p>
         </div>
