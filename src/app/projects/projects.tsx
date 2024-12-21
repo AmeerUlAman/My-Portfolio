@@ -7,7 +7,6 @@ const Projects = () => {
         <h1 className={styles.title}>My Projects</h1>
       </div>
 
-      
     </div>
   );
 };
